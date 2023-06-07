@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+h1
+{
+    font-family: 'Dancing Script', cursive;
+
+}
+.contain
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: relative;
+}
+
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    
+}
+
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+
+  .star-rating span
+{
+    color: blue;
+}
